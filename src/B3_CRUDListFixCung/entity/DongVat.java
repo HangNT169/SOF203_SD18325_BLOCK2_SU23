@@ -1,15 +1,15 @@
-package B3_CRUDListFixCung;
+package B3_CRUDListFixCung.entity;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-
 /**
  *
  * @author hangnt
  */
 public class DongVat {
+
     private String maDV;
     private String tenDV;
     private int canNang;
@@ -71,6 +71,5 @@ public class DongVat {
     public String toString() {
         return "DongVat{" + "maDV=" + maDV + ", tenDV=" + tenDV + ", canNang=" + canNang + ", gioiTinh=" + gioiTinh + ", diaChi=" + diaChi + '}';
     }
-    
-    
+
 }
